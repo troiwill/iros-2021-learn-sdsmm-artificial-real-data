@@ -8,3 +8,6 @@ data/mrclam/learn
 
 # The Python virtual environment directory.
 iros21_sdsmm
+
+# Experimental results directory.
+exps
