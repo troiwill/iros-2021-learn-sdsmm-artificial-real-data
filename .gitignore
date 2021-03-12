@@ -1,0 +1,10 @@
+# Ignore the following file extensions, hidden files, and directories.
+.*
+tmp
+
+# Unpacked data directories.
+data/mrclam/clean
+data/mrclam/learn
+
+# The Python virtual environment directory.
+iros21_sdsmm
