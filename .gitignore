@@ -2,6 +2,9 @@
 .*
 tmp
 
+# Python compile directories.
+__pycache__
+
 # Unpacked data directories.
 data/mrclam/clean
 data/mrclam/learn
