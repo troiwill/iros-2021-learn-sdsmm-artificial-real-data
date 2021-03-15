@@ -32,10 +32,10 @@ cd $IROS21_SDSMM/scripts/localize
 python run_localizer.py 1 1 apriori
 
 # Compute the localization results and graph robot trajectory.
-python calc_localize_result.py $IROS21_SDSMM/exps/localize/robot-1/apriori/ekpf/data-1/results.h5
+python calc_localize_result.py $IROS21_SDSMM/exps/localize/apriori/robot-1/apriori/ekpf/data-1/results.h5
 ```
 
-The output graph (from calc_localize_result.py) shows the true robot poses and the predicted robot poses from the EKPF.
+The output graph (from calc_localize_result.py) shows the predicted robot positions from the EKPF and the true robot positions.
 
 ![Predicted trajectory for Robot 1 on Course 1](/docs/figures/position_graph_crs1_robot1_apriori_ekpf.svg)
 
@@ -61,3 +61,15 @@ The following ZIP files contain training data for the Mixture Density Network (M
 
 ### Localization Data
 The **courses_data_assoc.zip** file contains data for localization. Compared to the original MR.CLAM dataset, some measurement data was removed due to possible landmark mismatches.
+
+----------------------------
+## Performining Localization
+
+**Relevant files and data:**
+- [courses_data_assoc.zip](/data/mrclam/courses_data_assoc.zip)
+- [run_localizer.py](/scripts/localize/run_localizer.py)
+- [calc_localize_result.py](/scripts/localize/calc_localize_result.py)
+
+To determine how to run the localizer, run ```python run_localizer.py -h``` in the terminal.
+
+Once you ran the localization script, you can check yuor results using calc_localize_result.py. To determine how to run this script, run ```python calc_localize_result.py -h``` in the terminal.
