@@ -52,7 +52,6 @@ parser.add_argument("--loglevel", default=LL_INFO, choices=LL_OPTIONS.keys(),
     help="The log level for this localization trial.")
 
 args = parser.parse_args()
-assert 1 <= args.bstp_index <= 100
 
 DTYPE = torch.double
 DEVICE = torch.device('cpu')
