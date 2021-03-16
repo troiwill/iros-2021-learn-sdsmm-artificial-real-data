@@ -4,7 +4,7 @@
 ## System Requirements
 
 This repository was developed and tested on systems with the following specifications:
-- Ubuntu 20.04 LTS and MacOS Catalina (version 10.15.7)
+- Ubuntu 20.04 LTS or MacOS Catalina (version 10.15.7)
 - Python3 (version 3.7.2 up to 3.8.5)
 
 ## Download and Environment Setup
