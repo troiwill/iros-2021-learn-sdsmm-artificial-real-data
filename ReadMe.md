@@ -54,7 +54,7 @@ for p in $(ls *.zip); do unzip $p; done
 The following ZIP files contain training data for the Mixture Density Network (MDN). Please refer to the paper to determine the MDNs were trained.
 
 * **mrclam_learn_indiv_data.zip** - Used to train RDO models.
-* **articial_learn_data.zip** - Artificial data used to pre-train an MDN. MDN is later fine-tuned.
+* **artificial_learn_data.zip** - Artificial data used to pre-train an MDN. MDN is later fine-tuned.
 * __bootstrapped_mrclam_learn_data_robot*.zip__ - Bootstrapped training data for robot*. This dataset has two purposes.
     1. Used to fine-tune the pre-trained MDN (FLRD models).
     2. Used to train an MDN *without* pre-training (LRDO models).
@@ -68,7 +68,7 @@ The **courses_data_assoc.zip** file contains data for localization. Compared to 
 
 **Relevant files and data:**
 - [mrclam_learn_indiv_data.zip](/data/mrclam/mrclam_learn_indiv_data.zip)
-- [articial_learn_data.zip](/data/mrclam/articial_learn_data.zip)
+- [artificial_learn_data.zip](/data/mrclam/artificial_learn_data.zip)
 - [bootstrapped_mrclam_learn_data_robot{1-5}.zip](/data/mrclam/)
 - [train.py](/scripts/training/train.py)
 
