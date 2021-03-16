@@ -1,9 +1,15 @@
 # Learning State-Dependent Sensor Measurement Models with Limited Sensor Measurements
 
 ----
+## System Requirements
+
+This repository was developed and tested on systems with the following specifications:
+- Ubuntu 20.04 LTS and MacOS Catalina (version 10.15.7)
+- Python3 (version 3.7.2 up to 3.8.5)
+
 ## Download and Environment Setup
 
-__Note:__ It is assumed that you have Python3 installed.
+__Note:__ Python3 was used for this project.
 
 Run the following commands to download and set up an environment for this project. It is recommended that you run the commands one-by-one.
 ```
@@ -73,6 +79,8 @@ The **courses_data_assoc.zip** file contains data for localization. Compared to 
 - [train.py](/scripts/training/train.py)
 
 To determine how to run the training script, run ```python train.py -h``` in the terminal.
+
+If you have questions regarding the training parameters for the networks, please send me an email.
 
 ----------------------------
 ## Performining Localization
