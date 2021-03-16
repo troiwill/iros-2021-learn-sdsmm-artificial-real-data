@@ -5,7 +5,7 @@
 
 __Note:__ It is assumed that you have Python3 installed.
 
-Run the following commands to download and set up an environment for this project.
+Run the following commands to download and set up an environment for this project. It is recommended that you run the commands one-by-one.
 ```
 # Create a repo directory for this project, and then clone the repo.
 mkdir -p $HOME/repos && cd $HOME/repos
@@ -23,7 +23,8 @@ The rest of this document assumes that the Python virutal environment is active.
 ------------
 ## Quick run
 
-Run the following commands to test the localizer script for the Extended Kalman Particle Filter.
+First, unpack the data for this project. (Use the terminal commands in the section titled "Data"). Then run the following commands to test the localizer script for the Extended Kalman Particle Filter.
+
 ```
 # Change to the localizer directory.
 cd $IROS21_SDSMM/scripts/localize
