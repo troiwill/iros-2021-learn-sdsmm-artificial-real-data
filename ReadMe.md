@@ -63,6 +63,17 @@ The following ZIP files contain training data for the Mixture Density Network (M
 ### Localization Data
 The **courses_data_assoc.zip** file contains data for localization. Compared to the original MR.CLAM dataset, some measurement data was removed due to possible landmark mismatches.
 
+----------------------
+## Performing Training
+
+**Relevant files and data:**
+- [mrclam_learn_indiv_data.zip](/data/mrclam/mrclam_learn_indiv_data.zip)
+- [articial_learn_data.zip](/data/mrclam/articial_learn_data.zip)
+- [bootstrapped_mrclam_learn_data_robot{1-5}.zip](/data/mrclam/)
+- [train.py](/scripts/training/train.py)
+
+To determine how to run the training script, run ```python train.py -h``` in the terminal.
+
 ----------------------------
 ## Performining Localization
 
