@@ -1,1 +1,3 @@
-from . import helpers, model, trainable_model
+from . import helpers
+from . import model
+from . import trainable_model
